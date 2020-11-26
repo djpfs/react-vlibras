@@ -16,12 +16,19 @@ yarn add @djpfs/react-vlibras
 
 ## Como usar
 
-No seu projeto React
+React (App.js)
 
-```vue
-## Importação import VLibras from '@djpfs/react-vlibras' ## Coloque no seu index
-<VLibras />
-```
+![React](/public/assets/react.png)
+
+NextJs (index.jsx)
+
+![NextJs](/public/assets/nextjs.png)
+
+## Resultado
+
+![Rsultado 1](/public/assets/result1.png)
+
+![Rsultado 2](/public/assets/result2.png)
 
 ## Contribuindo
 
