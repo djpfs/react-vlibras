@@ -1,5 +1,5 @@
 {
-  "name": "react-vlibras",
+  "name": "@djpfs/react-vlibras",
   "description": "Lib do VLibras para usar em seus projetos React",
   "version": "1.0.0",
   "main": "dist/index.js",
@@ -16,6 +16,9 @@
   ],
   "author": "@djpfs",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "react": "^16.6.0",
     "react-dom": "^16.6.0"

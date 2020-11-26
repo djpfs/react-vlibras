@@ -9,9 +9,9 @@ Esse componente segue os padrões fornecidos na [documentação do vlibras](http
 ## Instalação
 
 ```shell
-npm install -S @vue-a11y/vlibras
+npm install -S @djpfs/react-vlibras
 # or
-yarn add @vue-a11y/vlibras
+yarn add @djpfs/react-vlibras
 ```
 
 ## Como usar
@@ -19,27 +19,8 @@ yarn add @vue-a11y/vlibras
 No seu projeto React
 
 ```vue
-<template>
-  <div id="app">
-    <!-- header, navigation, and more -->
-    <main id="main">
-      <!-- content -->
-    </main>
-    <VLibras />
-  </div>
-</template>
-
-<script>
-import { VLibras } from '@vue-a11y/vlibras'
-
-export default {
-  name: 'App'
-  components: {
-    VLibras
-  },
-  //...
-}
-</script>
+## Importação import VLibras from '@djpfs/react-vlibras' ## Coloque no seu index
+<VLibras />
 ```
 
 ## Contribuindo
