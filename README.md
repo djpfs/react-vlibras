@@ -1,6 +1,6 @@
 # vlibras
 
-> Ainda não funciona com projetos usando typescript, estou fazendo essa correção agora. Se puder, me dê uma força nisso.
+> Para ser usada em projetos que NÃO usam typescript. Para projetos que usam typescript, use [VLibras](https://www.npmjs.com/package/@djpfs/react-vlibras-typescript)
 
 Lib React que ajuda você a implementar o VLibras no seu site.
 
