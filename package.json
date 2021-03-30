@@ -10,6 +10,10 @@
     "build:cjs": "rollup --config config/cjs.js",
     "build:esm": "rollup --config config/esm.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/djpfs/react-vlibras.git"
+  },
   "keywords": [
     "vlibras",
     "react"
