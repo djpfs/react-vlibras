@@ -1,5 +1,7 @@
 # vlibras
 
+> Ainda não funciona com projetos usando typescript, estou fazendo essa correção agora. Se puder, me dê uma força nisso.
+
 Lib React que ajuda você a implementar o VLibras no seu site.
 
 Esse componente segue os padrões fornecidos na [documentação do vlibras](https://www.vlibras.gov.br/doc/widget/index.html).
