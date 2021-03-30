@@ -1,15 +1,15 @@
-import { Component } from 'react';
+import * as React from 'react'
 
-export default class VLibras extends Component {
+export default class VLibras extends React.Component {
   widgetSrc: string;
   scriptSrc: string;
-  script: HTMLScriptElement;
+  script: any;
 
   constructor(props: any) {
     super(props);
     this.widgetSrc = 'https://vlibras.gov.br/app';
     this.scriptSrc = 'https://vlibras.gov.br/app/vlibras-plugin.js';
-    this.script = new HTMLScriptElement();
+    this.script = null;
   }
 
   init() {
@@ -27,12 +27,16 @@ export default class VLibras extends Component {
     this.init();
   }
 
-  render() {
-    return `<div vw="true" className="enabled">
+ render () {
+  return (
+      // @ts-ignore: Unreachable code error
+      <div vw="true" className="enabled">
         <div vw-access-button="true" className="active"></div>
         <div vw-plugin-wrapper="true">
           <div className="vw-plugin-top-wrapper"></div>
         </div>
-      </div>`;
-  }
+      </div>
+    );
+ }
+  
 }

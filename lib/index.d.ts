@@ -1,10 +1,10 @@
-import { Component } from 'react';
-export default class VLibras extends Component {
+import * as React from 'react';
+export default class VLibras extends React.Component {
     widgetSrc: string;
     scriptSrc: string;
-    script: HTMLScriptElement;
+    script: any;
     constructor(props: any);
     init(): void;
     componentDidMount(): void;
-    render(): string;
+    render(): JSX.Element;
 }
