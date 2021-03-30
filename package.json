@@ -1,7 +1,7 @@
 {
   "name": "@djpfs/react-vlibras-typescript",
-  "description": "Lib do VLibras para usar em seus projetos React",
-  "version": "1.0.4",
+  "description": "Lib do VLibras para usar em seus projetos React que usam typescript",
+  "version": "1.0.1",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/djpfs/react-vlibras.git"
+    "url": "https://github.com/djpfs/react-vlibras.git#typescript"
   },
   "keywords": [
     "vlibras",
