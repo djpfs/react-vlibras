@@ -1,7 +1,7 @@
 {
   "name": "@djpfs/react-vlibras",
   "description": "Lib do VLibras para usar em seus projetos React",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "files": [
     "./dist"
