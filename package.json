@@ -1,7 +1,7 @@
 {
   "name": "@djpfs/react-vlibras-typescript",
   "description": "Lib do VLibras para usar em seus projetos React que usam typescript",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [

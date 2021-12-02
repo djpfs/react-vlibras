@@ -1,6 +1,12 @@
 # vlibras
 
-> Para ser usada em projetos que usam typescript. Para outros projetos use [VLibras](https://www.npmjs.com/package/@djpfs/react-vlibras)
+# Atenção!
+<span style="color:red; font-size: 30px">Essa versão do vlibras foi descontinuada, use a versão mais recente em [VLibras](https://www.npmjs.com/package/@djpfs/react-vlibras). Antes essa versão era necessária porque eu não sabia gerar os types 😥, mas agora a principal já está pronta para ser usada.</span>
+
+
+
+
+
 
 Lib React que ajuda você a implementar o VLibras no seu site.
 
