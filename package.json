@@ -1,10 +1,10 @@
 {
   "name": "@djpfs/react-vlibras",
   "description": "Lib do VLibras para usar em seus projetos React",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "dist/index.js",
   "files": [
-    "./dist"
+    "dist"
   ],
   "scripts": {
     "build:cjs": "rollup --config config/cjs.js",
