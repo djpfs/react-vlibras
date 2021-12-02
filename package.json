@@ -1,18 +1,13 @@
 {
   "name": "@djpfs/react-vlibras",
   "description": "Lib do VLibras para usar em seus projetos React",
-  "version": "1.0.8",
-  "main": "dist/index.js",
+  "version": "1.0.9",
+  "main": "src/index.js",
   "files": [
     "dist",
     "src",
-    "config",
     ".babelrc"
   ],
-  "scripts": {
-    "build:cjs": "rollup --config config/cjs.js",
-    "build:esm": "rollup --config config/esm.js"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/djpfs/react-vlibras.git"
@@ -25,18 +20,5 @@
   "license": "ISC",
   "publishConfig": {
     "access": "public"
-  },
-  "devDependencies": {
-    "@babel/cli": "^7.16.0",
-    "@babel/core": "^7.16.0",
-    "@babel/plugin-proposal-class-properties": "^7.16.0",
-    "@babel/plugin-transform-runtime": "^7.16.4",
-    "@babel/preset-env": "^7.16.4",
-    "@babel/preset-react": "^7.16.0",
-    "rollup": "^2.60.2",
-    "rollup-plugin-babel": "^4.0.3",
-    "rollup-plugin-commonjs": "^9.2.0",
-    "rollup-plugin-node-resolve": "^3.4.0",
-    "rollup-plugin-replace": "^2.1.0"
   }
 }
