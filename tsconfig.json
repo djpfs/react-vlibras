@@ -1,0 +1,14 @@
+{
+    "include": [
+        "src/**/*"
+    ],
+    "compilerOptions": {
+        "jsx": "react",
+        "target": "ES2015",
+        "strict": true,
+        "declaration": true, // generates declaration files
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "forceConsistentCasingInFileNames": true
+    }
+}

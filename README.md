@@ -1,7 +1,5 @@
 # vlibras
 
-> Para ser usada em projetos que NÃO usam typescript. Para projetos que usam typescript, use [VLibras](https://www.npmjs.com/package/@djpfs/react-vlibras-typescript)
-
 Lib React que ajuda você a implementar o VLibras no seu site.
 
 Esse componente segue os padrões fornecidos na [documentação do vlibras](https://www.vlibras.gov.br/doc/widget/index.html).
@@ -39,5 +37,6 @@ NextJs (index.jsx)
 - Dê um fork no repositório, fazendo as alterações e enviando um PR;
 
 Lib e README baseado no: [@vue_a11y](https://raw.githubusercontent.com/vue-a11y/vue-vlibras/)
+Template package: [https://github.com/tomchen/example-typescript-package](example-typescript-package)
 
 **Obrigado por usar e fazer a web mais acessível**
