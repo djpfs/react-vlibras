@@ -24,6 +24,29 @@ NextJs (index.jsx)
 
 ![NextJs](/public/assets/nextjs.png)
 
+**Parametros**
+
+Você pode usar a propriedade `forceOnload` para forçar que o VLibras seja carregado a partir de decisões assíncronas, ja que por padrão ele é executado no evento `onload`.
+
+```typescript
+import VLibras from './index'
+
+function App() {
+  return (
+    <div className="App">
+      <VLibras forceOnload={true} />
+      <header className="App-header">
+        <h1>Teste</h1>
+      </header>
+    </div>
+  )
+}
+
+export default App
+```
+
+Confira melhor a motivação: [gg-martins091/pull/9](https://github.com/djpfs/react-vlibras/pull/9)
+
 ## Resultado
 
 ![Rsultado 1](/public/assets/result1.png)
@@ -38,5 +61,15 @@ NextJs (index.jsx)
 
 Lib e README baseado no: [@vue_a11y](https://raw.githubusercontent.com/vue-a11y/vue-vlibras/)
 Template package: [https://github.com/tomchen/example-typescript-package](example-typescript-package)
+
+## Contribuidores
+
+<a href="https://github.com/djpfs/react-vlibras/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=djpfs/react-vlibras" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
+
+_Obrigado ao [gg-martins091](https://github.com/gg-martins091) pela contribuição._
 
 **Obrigado por usar e fazer a web mais acessível**
