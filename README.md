@@ -1,6 +1,6 @@
 # vlibras
 
-Lib React que ajuda você a implementar o VLibras no seu site.
+Lib React que te ajuda a implementar o VLibras no seu site.
 
 Esse componente segue os padrões fornecidos na [documentação do vlibras](https://www.vlibras.gov.br/doc/widget/index.html).
 
@@ -24,9 +24,9 @@ NextJs (index.jsx)
 
 ![NextJs](/public/assets/nextjs.png)
 
-**Parametros**
+**Parâmetros**
 
-Você pode usar a propriedade `forceOnload` para forçar que o VLibras seja carregado a partir de decisões assíncronas, ja que por padrão ele é executado no evento `onload`.
+Você pode usar a propriedade `forceOnload` para forçar o VLibras a ser carregado a partir de decisões assíncronas, já que, por padrão, ele é executado no evento `onload`.
 
 ```typescript
 import VLibras from './index'
@@ -55,8 +55,10 @@ Confira melhor a motivação: [gg-martins091/pull/9](https://github.com/djpfs/re
 
 ## Contribuindo
 
-- De erros de digitação na documentação à codificação de novos recursos;
-- Verifique os issue em aberto ou abra um novo issue para iniciar uma discussão sobre sua ideia de recurso ou o bug que você encontrou;
+Você pode contribuir!
+
+- Contribua de qualquer maneira, desde erros de digitação na documentação até codificação de novos recursos;
+- Verifique issues em aberto ou abra um novo issue a fim de iniciar uma discussão sobre sua ideia, recurso ou o bug que você encontrou;
 - Dê um fork no repositório, fazendo as alterações e enviando um PR;
 
 Lib e README baseado no: [@vue_a11y](https://raw.githubusercontent.com/vue-a11y/vue-vlibras/)
